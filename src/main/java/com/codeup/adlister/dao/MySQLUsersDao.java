@@ -1,5 +1,7 @@
 package com.codeup.adlister.dao;
 
-public class MySQLUsersDao implements Users{
+import java.sql.Connection;
 
+public class MySQLUsersDao implements Users{
+    private Connection connection = null;
 }
